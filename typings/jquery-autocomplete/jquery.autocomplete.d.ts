@@ -255,6 +255,25 @@ interface JQueryAutocompleteOptions {
      */
     tabDisabled?: boolean;
 
+    /**
+     * The CSS class for the container holding the suggestions
+     * @default 'autocomplete-suggestions'
+     */
+    containerClass?: string;
+
+    /**
+     * The CSS class for the suggestions
+     * @default 'autocomplete-suggestion'
+     */
+    suggestionClass?: string;
+
+    /**
+     * The CSS class added to the active, selected or hovered suggestion
+     * @default 'autocomplete-selected'
+     */
+    selectedClass?: string;
+
+
 }
 
 interface AutocompleteStatic {
